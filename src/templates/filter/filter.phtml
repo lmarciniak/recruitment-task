@@ -1,0 +1,19 @@
+<form method="get"
+      action="#"
+      class="navbar-form navbar-left"
+      role="search"
+>
+    <div class="row form-group">
+        <div class="col-12 mx-auto">
+            <h2>Filters</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <?php $this->data['filterBuilder']->render(); ?>
+            <div class="row p-1">
+                <input class="col-12" type="submit" />
+            </div>
+        </div>
+    </div>
+</form>

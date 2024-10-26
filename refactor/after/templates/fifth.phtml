@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <br />
+        <table width="95%">
+            <?php foreach ($rows as $row): ?>
+                <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td>
+                        <?php echo $row['nazwa_przedsiebiorcy'] . ($row['kwota'] > 5 ? " {$row['kwota']}" : ''); ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </body>
+</html>
