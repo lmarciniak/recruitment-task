@@ -2,7 +2,9 @@
 
 ### Instrukcja uruchomienia:
 1. W bieżącym katalogu uruchom ```docker compose up -d``` aby zbudować i uruchomić kontenery.
-2. Wykonaj migracje zawarte w pliku postgres/init.sql jeśli nie wykonały się automatycznie
+2. W bieżącym katalogu wykonaj ```composer install```
+3. Wykonaj migracje zawarte w pliku postgres/init.sql jeśli nie wykonały się automatycznie
+4. Otwórz aplikację pod adresem http://localhost:8080/
 ```
 Utwórz tabele przechowujące dane klientów, faktury, pozycje faktur, płatności oraz nadpłaty.
 
